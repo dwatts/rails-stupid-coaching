@@ -1,5 +1,11 @@
-<h1><%= @question %></h1>
+<div class="question-holder">
+<h2><%= @question %></h2>
+<h3>-You</h3>
+</div>
 
+<div class="answer-holder">
 <h2><%= @coach_answer %></h2> 
+<h3>-Your coach</h3>
+</div>
 
 <%= link_to 'Talk to coach again', root_path %>

@@ -2,16 +2,33 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $gray: #F4F4F4;
-$orange: #e55925;
+$darkgray: #c4c4c4;
+$lightyellow: #ecf3ab;
 
 body {
   background: $gray; // Using this variable
 }
 
+.question-holder {
+  padding: 10px;
+  background-color: $darkgray;
+  margin: 10px;
+  width: 60%;
+  border-left: 15px solid black;
+}
+
+.answer-holder {
+  padding: 10px;
+  background-color: $lightyellow;
+  margin: 10px;
+  width: 60%;
+  border-left: 15px solid black;
+}
+
 
 h1 {
-  font-size: 25px;
-  color: $orange;
+  font-size: 30px;
+  color: black;
 }
 
 a {
